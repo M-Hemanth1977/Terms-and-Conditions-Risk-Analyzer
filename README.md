@@ -61,4 +61,7 @@ The tool identifies and categorizes risks into the following categories:
    - **URL**: Enter the URL of a webpage with the SaaS Terms and Conditions.
    - **Text**: Paste the Terms and Conditions in the provided text area.
 2. Click on the "Analyze T&C" button to start the analysis.
-3. The tool will display the identified risk categories and causes along with the matched text for each risk.
+3. The tool will:
+   - **Identify risk categories** and causes.
+   - **Highlight matched text** for each risk.
+   - **Provide a summary** of the Terms and Conditions.
