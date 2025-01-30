@@ -38,7 +38,7 @@ The tool identifies and categorizes risks into the following categories:
 
 ### 🔹 Interactive UI:
 - **Sidebar** for input options: Upload PDF, enter URL, or paste text.
-- **Expandable sections** explain detected risk categories, causes and its summary.
+- **Expandable sections** explain detected risk categories, causes and the summary of the text.
 - **Highlighted matched text** for better risk visualization.
 
 ### 🔹 Keyword Matching with NLP:
