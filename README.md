@@ -38,7 +38,7 @@ The tool identifies and categorizes risks into the following categories:
 
 ### 🔹 Interactive UI:
 - **Sidebar** for input options: Upload PDF, enter URL, or paste text.
-- **Expandable sections** explain detected risk categories and causes.
+- **Expandable sections** explain detected risk categories, causes and its summary.
 - **Highlighted matched text** for better risk visualization.
 
 ### 🔹 Keyword Matching with NLP:
@@ -46,11 +46,11 @@ The tool identifies and categorizes risks into the following categories:
 - Provides **explanations** for identified risks and highlights the **exact phrases** that triggered the detection.
 
 ### 🔹 Summarization Feature:
-- Uses **TextRank** (via spaCy or Sumy) to generate a **concise summary** of the Terms and Conditions.
+- Uses fine-tuned transformer model to generate a **concise summary** of the Terms and Conditions.
 - Extracts key points without requiring users to read the entire document.
 
 ### 🔹 Performance Optimization:
-- **Fast text extraction** from PDFs and web pages using **pypdf** and **BeautifulSoup**.
+- **Fast text extraction** from PDFs and web pages using **pdfplumber** and **BeautifulSoup**.
 - **Streamlit-powered UI** for a **user-friendly** experience.
 
 ---
